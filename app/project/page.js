@@ -1,10 +1,8 @@
 'use client';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
 import { Home, Search, MapPin, CloudSun } from 'lucide-react';
 
 export default function ProjectPage() {
-  const router = useRouter();
 
   return (
     <div
